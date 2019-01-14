@@ -1,2 +1,0 @@
-# Clicky
-A memory game
