@@ -1,5 +1,3 @@
-# Clicky-Game
-
 ## Overview
 
 This is a memory game using React. The application's UI is split into four components.
@@ -11,7 +9,7 @@ This is a memory game using React. The application's UI is split into four compo
 
 2. The app should render 12 different images (of your choice) to the screen. Each image should listen for click events.
 
-![Fish memory game](./src/logo.svg)
+![Memory game](./src/logo.svg)
 
 3. The app should keep track of the user's score. The user's score should be incremented when clicking an image for the first time. The user's score should be reset to 0 if they click the same image more than once.
 

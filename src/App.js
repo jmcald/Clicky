@@ -26,25 +26,26 @@ class App extends Component {
       });
       alert("Wroooooong! Play again?");
     } else {
-      this.setState(
-        { picture: this.state.picture.sort(function(a, b) { return 0.5 - Math.random();
+      this.setState({ 
+        picture: this.state.picture.sort(function(a, b) {
+          return 0.5 - Math.random();
         }),
       clickedPicture: this.state.clickedPicture.concat(
         currentPic
       ),
       tally: this.state.tally + 1
     },
-    () => {
-      if (this.state.tally === 12) {
-        alert("You wooooooon!");
-        this.setState({ picture: this.state.picture.sort(function(a, b) {
-          return 0.5 - Math.random();
-        }),
-        clickedPicture: [],
-        tally: 0  
-        });
-      }
-    }
+        () => {
+          if (this.state.tally === 12) {
+            alert("You wooooooon!");
+            this.setState({ picture: this.state.picture.sort(function(a, b) {
+              return 0.5 - Math.random();
+            }),
+            clickedPicture: [],
+            tally: 0  
+            });
+          }
+        }
       );
     }
   };
