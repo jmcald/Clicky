@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "main": "index.js",
-  "homepage": "https://jmcald.github.io/Clicky/",
+  "homepage": "https://jmcald.github.io/Clicky/src",
   "dependencies": {
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
